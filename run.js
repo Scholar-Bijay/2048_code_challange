@@ -269,7 +269,17 @@ HTMLActuator.prototype.clearMessage = function () {
     this.messageContainer.classList.remove("game-over")
 }
     ;
-
+HTMLActuator.prototype.scoreTweetButton = function () {
+    var a = document.createElement("a");
+    a.classList.add("twitter-share-button");
+    a.setAttribute("href", "https://twitter.com/share");
+    a.setAttribute("data-url", "http://2048game.com");
+    a.setAttribute("data-counturl", "http://2048game.com");
+    a.textContent = "Tweet";
+    a.setAttribute("data-text", "I scored " + this.score + " points at 2048, a game where you join numbers to score high! #2048game");
+    return a
+}
+    ;
 function Grid(a, b) {
     this.size = a;
     this.cells = b ? this.fromState(b) : this.empty()
