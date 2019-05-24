@@ -1,15 +1,21 @@
+
 # 2048_code_challange
+
 Coding_for_Practice 
 
 
 
 #How To Run This File
+
+
 Download or clone this file from the Repository  
 And Double click the "Run.html" file    ||  or open with Google Chrome 
 
 
 
 #Logic of this Program
+
+
 It has been made using Javascript(Jquery) with Html.
 It could have been little better with css.
 
