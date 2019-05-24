@@ -251,6 +251,7 @@ HTMLActuator.prototype.updateScore = function (a) {
         this.scoreContainer.appendChild(a))
 }
     ;
+    
 HTMLActuator.prototype.updateBestScore = function (a) {
     this.bestContainer.textContent = a
 }
